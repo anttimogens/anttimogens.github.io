@@ -1,0 +1,53 @@
+body {
+    font-family: 'Special Elite', cursive, bold;
+    font-family: 'Josefin Slab', serif, bold;
+
+    background-image: url("pics/Natural-Paper-Background-Texture-Vintage.jpg");
+    background-repeat: no-repeat;
+}
+
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar_box {
+    float: left;
+    display: block;
+    padding: 14px;
+    font-size: 20px;
+
+}
+
+.navbar_box ul {
+    padding-left: 0;
+}
+
+.navbar_box h3 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 26px;
+    margin: 0 0;
+}
+
+
+.banner {
+    background: rgb(119, 20, 20);
+    opacity: 0.9;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    float: none;
+    
+}
+
+.banner h2 {
+    font-size: 40px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    
+}
