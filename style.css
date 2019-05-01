@@ -5,39 +5,13 @@ body {
    background-image: url("pics/Natural-Paper-Background-Texture-Vintage.jpg");
     background-repeat: no-repeat;
     */
-    background-color: rgb(119, 20, 20);
-}
-
-
-.navbar {
-    /*
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    */
-    border-bottom: 2px;
-    height: 80px;
-}
-
-.navbar_box {
-    float: left;
-    display: block;
-    padding: 14px;
-}
-
-.navbar_box h3 {
-    text-align: left;
-    text-decoration: underline;
-    margin: 0 0;
 }
 
 .banner {
     background: rgb(119, 20, 20);
     opacity: 0.9;
     padding: 10px 0px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 
