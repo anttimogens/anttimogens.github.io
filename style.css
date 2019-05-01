@@ -5,7 +5,7 @@ body {
    background-image: url("pics/Natural-Paper-Background-Texture-Vintage.jpg");
     background-repeat: no-repeat;
     */
-    background-color: beige;
+    background-color: rgb(119, 20, 20);
 }
 
 
@@ -24,30 +24,11 @@ body {
     float: left;
     display: block;
     padding: 14px;
-    font-size: 20px;
 }
 
 .navbar_box h3 {
     text-align: left;
     text-decoration: underline;
-    font-size: 26px;
-    margin: 0 0;
-}
-
-.services {
-    margin: 20px 0;
-}
-
-.services_box {
-    float: left;
-    display: block;
-    font-size: 20px;
-}
-
-
-.services_box h3 {
-    text-align: left;
-    font-size: 26px;
     margin: 0 0;
 }
 
@@ -59,14 +40,6 @@ body {
     
 }
 
-.banner h2 {
-    font-size: 40px;
-}
-
-.banner h1 {
-    font-size: 60px;
-    
-}
 
 .content {
     min-height: 200px;
