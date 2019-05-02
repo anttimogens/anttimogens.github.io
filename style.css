@@ -7,6 +7,10 @@
     background-color: rgb(20, 14, 75);
 }
 
+.active {
+    text-decoration: underline;
+}
+
 body {
     display: flex;
     min-height: 100vh;
