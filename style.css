@@ -1,10 +1,9 @@
 #fontstyle {
     font-family: 'Special Elite', cursive;
     font-family: 'Josefin Slab', serif;
-    /*
-   background-image: url("pics/Natural-Paper-Background-Texture-Vintage.jpg");
-    background-repeat: no-repeat;
-    */
+    background-image: url("pics/artdeco_purpleferns_crop.jpg");
+    background-size: 35%;
+    background-repeat: repeat;
     background-color: rgb(20, 14, 75);
 }
 
