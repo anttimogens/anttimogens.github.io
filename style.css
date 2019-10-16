@@ -26,3 +26,10 @@ body {
     background: rgb(119, 20, 20);
     opacity: 0.9;
 }
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 250px solid rgb(192, 134, 10);
+    border-right: 250px solid transparent;
+  }
