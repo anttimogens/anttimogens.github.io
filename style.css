@@ -21,9 +21,13 @@ body {
     flex: 1;
 }
 
+.card-header.h4 {
+    background-color: rgb(167, 135, 47);
+}
+
 
 #banner {
-    background: rgb(119, 20, 20);
+    background:  rgb(167, 135, 47);
     opacity: 0.9;
 }
 
