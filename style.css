@@ -1,9 +1,9 @@
 #fontstyle {
     font-family: 'Special Elite', cursive;
     font-family: 'Josefin Slab', serif;
-    background-image: url("pics/artdeco_purpleferns_crop.jpg");
+    /* background-image: url("pics/artdeco_purpleferns_crop.jpg");
     background-size: 35%;
-    background-repeat: repeat;
+    background-repeat: repeat; */
     background-color: rgb(20, 14, 75);
 }
 
@@ -68,9 +68,35 @@ body {
     opacity: 0.9;
 }
 
-#triangle-bottomleft {
+/* #cornerlink {
     width: 0;
     height: 0;
     border-bottom: 250px solid rgb(192, 134, 10);
     border-right: 250px solid transparent;
-  }
+    background-image: url("pics/catscorner5.jpg");
+ } */
+
+ #cornerlink {
+    width:40%;
+    padding-bottom:28.2842712474619%; /* = width / sqrt(2) */
+    position: relative;
+    overflow: hidden;
+    transform-origin:0 100%;
+    transform: rotate(45deg);
+}
+#cornerlink:before{
+    content:'';
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background-image: url("pics/catscorner5.jpg");
+    background-size: cover;
+    background-position: center top;
+    transform-origin:0 100%;
+    transform: rotate(-45deg);
+}
+
+
+#cornerlink:hover, #cornerlink:active {
+   
+}
