@@ -14,28 +14,24 @@
         background-size: 95%;
     }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     #fontstyle {
         background-size: 85%;
     }
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #fontstyle {
         background-size: 75%;
     }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #fontstyle {
         background-size: 65%;
     }
 }
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px){
     #fontstyle {
@@ -68,9 +64,8 @@ body {
     opacity: 0.9;
 }
 
-#triangle-bottomleft {
-    width: 0;
-    height: 0;
-    border-bottom: 250px solid rgb(192, 134, 10);
-    border-right: 250px solid transparent;
-  }
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
