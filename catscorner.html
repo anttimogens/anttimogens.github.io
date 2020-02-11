@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
     <head>
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self'; 
+            img-src *; 
+            style-src *;
+            font-src https://fonts.gstatic.com;
+            script-src-elem https: 'unsafe-inline'">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Jan Rajk, freiberuflicher Trainer, Franken und Umgebung">
@@ -243,7 +249,7 @@
         <!-- Footer -->
         <footer class="position-fixed-bottom text-white-50 h4 text-right mr-2">
             <img src="https://api.thegreenwebfoundation.org/greencheckimage/www.basiesbeat.de" alt="This website is hosted Green - checked by thegreenwebfoundation.org">  
-            &copy; Jan Rajk  <script>document.write(new Date().getFullYear());</script>
+            © Jan Rajk 2019
         </footer>
        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
