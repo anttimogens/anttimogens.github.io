@@ -24,11 +24,27 @@ a.nav-item {
 }
 
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    #fontstyle {
+        background-size: 95%;
+    }
+    .logo {
+        height: 40px;
+    }
+    .navbar-expand .navbar-nav.navbar-nav {
+        font-size: 40%;
+        display: flexbox;
+        flex-direction: column;
+        text-align: right;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #fontstyle {
         background-size: 95%;
     }
     .navbar-expand .navbar-nav.navbar-nav {
+        font-size: 80%;
         display: flexbox;
         flex-direction: column;
         text-align: right;
