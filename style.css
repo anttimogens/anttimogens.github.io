@@ -7,11 +7,31 @@
     background-color: rgb(20, 14, 75);
 }
 
+.navbar {
+    min-height: 120px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navbar-brand {
+    padding-right: 4rem;
+}
+
+a.nav-item {
+    margin: 0 0.5rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #fontstyle {
         background-size: 95%;
+    }
+    .navbar-expand .navbar-nav.navbar-nav {
+        display: flexbox;
+        flex-direction: column;
+        text-align: right;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -62,12 +82,13 @@ body {
 #banner {
     background-color: rgb(167, 135, 47);
     opacity: 0.9;
+    margin-bottom: 150px;
 }
 
 footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer img {
